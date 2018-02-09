@@ -5,6 +5,9 @@
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix fabio: <http://purl.org/spar/fabio/> .
 
+gs:Dataset	rdf:type <http://semanticscience.org/resource/SIO_000089> .
+gs:Dataset	rdfs:label	"GlycoSample" .
+
 gs:Glycosample	gs:has_resource	gs:GS_1.
 gs:GS_1	gs:glycosample_id	"GS_1".
 gs:GS_1	dcterms:identifier	"GS_1".
