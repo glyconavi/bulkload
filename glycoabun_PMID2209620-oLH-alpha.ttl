@@ -18,6 +18,9 @@ PREFIX sio: <http://semanticscience.org/resource/> .
 PREFIX chebi: <http://bio2rdf.org/chebi:> .
 PREFIX exterms: <http://www.example.org/terms/> .
 
+ga:Dataset	rdf:type <http://semanticscience.org/resource/SIO_000089> .
+ga:Dataset	rdfs:label	"Glycan Abundance Ratio" .
+
 <http://glyconavi.org/glycobio/GS_3>	gs:glycosample_id	"GS_3" .
 <http://glyconavi.org/glycobio/GS_3>	glycan:has_resource_entry	<http://glyconavi.org/glycobio/BR_1> .
 <http://glyconavi.org/glycobio/BR_1>	rdfs:label	"oLH protein_complex" .
