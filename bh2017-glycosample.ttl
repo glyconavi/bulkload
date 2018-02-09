@@ -7,6 +7,11 @@
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix gs: <http://purl.jp/bio/12/glyco/sample#> .
  
+gs:Dataset	rdf:type <http://semanticscience.org/resource/SIO_000089> .
+gs:Dataset	rdfs:label	"GlycoSample" .
+
+gs:Dataset	grg:has_resource <http://bio.glyconavi.org/GlycoSample/GS_40> .
+
 <http://bio.glyconavi.org/GlycoSample/GS_40>
     a gs:Sample ;
     dcterms:title "GS_40" ;
