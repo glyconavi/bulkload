@@ -17,6 +17,9 @@ PREFIX sio: <http://semanticscience.org/resource/> .
 PREFIX chebi: <http://bio2rdf.org/chebi:> .
 PREFIX exterms: <http://www.example.org/terms/> .
 
+ga:Dataset	rdf:type <http://semanticscience.org/resource/SIO_000089> .
+ga:Dataset	rdfs:label	"Glycan Abundance Ratio" .
+
 <http://glyconavi.org/glycobio/GS_14>	gs:glycosample_id	"GS_14" .
 <http://glyconavi.org/glycobio/GS_14>	glycan:has_resource_entry	<http://glyconavi.org/glycobio/BR_2> .
 <http://glyconavi.org/glycobio/BR_2>	rdfs:label	"Urinary glycans of mannosidosis" .
